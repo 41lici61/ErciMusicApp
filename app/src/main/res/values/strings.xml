@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ErciMusic</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="cpass">Confirmar contraseña</string>
+    <string name="bInicio">Iniciar Sesion</string>
+    <string name="no_account">¿No tienes cuenta? Regístrate</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">apellidos</string>
+    <string name="avatar">Elige tu avatar</string>
+    <string name="register">Registrarse</string>
+    <string name="select_level">Seleccionar nivel</string>
+    <string name="play">Reproducir canción</string>
+    <string name="back">Volver al menu</string>
+    <string name="levelone">Nivel 1</string>
+    <string name="leveltwo">Nivel 2</string>
+    <string name="levelthree">Nivel 3</string>
+    <string name="levelfour">Nivel 4</string>
+    <string name="levelfive">Nivel 5</string>
+    <string name="levelsix">Nivel 6</string>
+</resources>

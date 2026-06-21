@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ErciMusic</string>
+    <string name="user">User</string>
+    <string name="pass">Password</string>
+    <string name="cpass">Confirm password</string>
+    <string name="bInicio">Login</string>
+    <string name="no_account">Don\'t have an account? Register</string>
+    <string name="crear_cuenta">Create account</string>
+    <string name="nombre">Name</string>
+    <string name="apellidos">Last name</string>
+    <string name="avatar">Choose your avatar</string>
+    <string name="register">Register</string>
+    <string name="select_level">Select level</string>
+    <string name="play">Play song</string>
+    <string name="back">Back to menu</string>
+    <string name="levelone">Level 1</string>
+    <string name="leveltwo">Level 2</string>
+    <string name="levelthree">Level 3</string>
+    <string name="levelfour">Level 4</string>
+    <string name="levelfive">Level 5</string>
+    <string name="levelsix">Level 6</string>
+</resources>

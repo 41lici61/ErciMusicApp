@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/crear_cuenta"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:hint="@string/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/bg_input"
+            android:layout_marginTop="20dp"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/etLastname"
+            android:hint="@string/apellidos"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/bg_input"
+            android:layout_marginTop="15dp"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/etNickname"
+            android:hint="@string/user"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/bg_input"
+            android:layout_marginTop="15dp"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/etPass"
+            android:hint="@string/pass"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/bg_input"
+            android:layout_marginTop="15dp"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/etPassConfirm"
+            android:hint="@string/cpass"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/bg_input"
+            android:layout_marginTop="15dp"
+            android:padding="12dp"/>
+
+        <!-- avatar -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/avatar"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="25dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/avatar1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/avatar1"
+                android:layout_margin="10dp"/>
+
+            <ImageView
+                android:id="@+id/avatar2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/avatar2"
+                android:layout_margin="10dp"/>
+
+            <ImageView
+                android:id="@+id/avatar3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/avatar3"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bRegister"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/register"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#FF5AAD"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+</ScrollView>
