@@ -17,8 +17,7 @@ ErciMusic is an offline Android game where you guess songs from short audio snip
 
 ### Download APK
 1. Download from [Releases](https://github.com/41lici61/ErciMusicApp/releases)
-2. Enable "Install from unknown sources" in Settings → Security
-3. Open APK and tap "Install"
+2. Open APK and tap "Install"
 
 ## 🎮 How to Play
 
